@@ -1,0 +1,72 @@
+.hero{
+    display: flex;
+    flex-direction: column;    
+    margin: 15px 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    .top{
+        display: flex;
+        gap: 20px;
+        .topLeft{
+            flex: 2;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            .btins{
+                display: flex;                
+                border: 1px solid rgb(226, 176, 176);
+                width: 180px;
+                height: 40px;   
+                align-items: center;
+                gap: 1px;
+
+                .left{                   
+                    width: 50%;                    
+                    height: 38px;
+                    font-size: 12px;
+                    text-align: center;
+                    margin: 0;
+                    padding: 0;
+                    border: 1px solid black;
+                } 
+                .right{
+                    height: 38px;
+                    width: 50%;
+                    border: 1px solid black;
+                }
+
+            }
+            .select1{
+                select{
+                    width: 100px;
+                    height: 40px;
+                }
+            }
+            .select2{
+                select{
+                    width: 100px;
+                    height: 40px;
+                }
+            }
+            .select3{
+                select{
+                    width: 150px;
+                    height: 40px;
+                }
+            }
+        }
+        .topRight{
+            flex: 1;
+
+        }
+        
+    }
+    .bottom{
+        margin-top: 15px;
+        select{
+            width: 150px;
+            height: 40px;
+        }
+
+    }
+}
