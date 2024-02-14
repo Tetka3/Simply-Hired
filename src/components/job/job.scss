@@ -1,7 +1,41 @@
-.job{    
-    border-left: 2px solid rgb(156,15,104); 
+.job{ 
+    display: flex;
+    flex-direction: column;   
+    /* border-left: 2px solid rgb(156,15,104);  */
     margin: 20px;
-    .first{
-        background-color: red;
+    .title{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-left: 15px;
     }
+    .description{
+        margin-left: 15px;
+        span{
+            
+        }
+        p{
+            margin-top: 5px;
+        }
+    }
+    .estimate{
+        display: flex;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        gap: 20px;
+        .pay{
+            font-weight: bold;
+
+        }
+        .apply{
+            color: red;
+            list-style: none;
+            cursor: pointer;
+
+        }
+        .time{
+            color: red;
+        }
+    }
+    
 }

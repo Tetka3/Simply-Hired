@@ -1,14 +1,27 @@
 import "./job.scss";
 
-const Job = ({ job }) => { 
- 
+const Job = ({ job }) => {  
 
     return (
       <div className="job">
-        <h4 style={{color: "darkblue"}} >{job.title}</h4> 
-        <p>{job.description}</p>       
-         
-         
+        <div className="title">
+          <h4 style={{color: "darkblue"}} >{job.title}</h4>
+        </div>        
+        <div className="description">
+          <span>{job.company}</span>
+          <p>{job.description}</p>
+        </div>         
+        <div className="estimate">
+          <div className="pay">
+          <p>{job.pay}</p>
+          </div> 
+          <div className="apply">
+            <li>Quick Apply</li>
+          </div> 
+          <div className="time">
+            <p>2d</p>
+          </div>           
+        </div>   
       </div>
     )
   }

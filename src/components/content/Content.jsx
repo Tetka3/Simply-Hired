@@ -11,21 +11,21 @@ const Content = () => {
     {
       id: 1,
       title: "Jr. Python Developer",
-      company: "infotech kochi —Remote",
+      company: "Infotech kochi —Remote",
       description: "Python internship program conduct by infotech, Online internship programme (WFH). 100% job assistance internship program, Inmakes infotech is a software firm located in kochi, vytila, we are hiring python interns for our tie ups companies, for May month, before that we are conducting on job training session to interns who are interested to join, providing international valid certification and work experience (3month)",
       pay: "$50,346.28 - $111,481.87",
     },
     {
       id: 2,
       title: "Jr. Python Developer",
-      company: "infotech kochi —Remote",
+      company: "Infotech kochi —Remote",
       description: "Python internship program conduct by infotech, Online internship programme (WFH). 100% job assistance internship program, Inmakes infotech is a software firm located in kochi, vytila, we are hiring python interns for our tie ups companies, for May month, before that we are conducting on job training session to interns who are interested to join, providing international valid certification and work experience (3month)",
       pay: "$50,346.28 - $111,481.87",
     },
     {
       id: 3,
       title: "Jr. Python Developer",
-      company: "infotech kochi —Remote",
+      company: "Infotech kochi —Remote",
       description: "Python internship program conduct by infotech, Online internship programme (WFH). 100% job assistance internship program, Inmakes infotech is a software firm located in kochi, vytila, we are hiring python interns for our tie ups companies, for May month, before that we are conducting on job training session to interns who are interested to join, providing international valid certification and work experience (3month)",
       pay: "$50,346.28 - $111,481.87",
     },
@@ -39,7 +39,7 @@ const Content = () => {
     {
       id: 5,
       title: "Junior Java Developer",
-      company: "infotech kochi —Remote",
+      company: "Infotech kochi —Remote",
       description: "Python internship program conduct by infotech, Online internship programme (WFH). 100% job assistance internship program, Inmakes infotech is a software firm located in kochi, vytila, we are hiring python interns for our tie ups companies, for May month, before that we are conducting on job training session to interns who are interested to join, providing international valid certification and work experience (3month)",
       pay: "$50,346.28 - $111,481.87",
     },
